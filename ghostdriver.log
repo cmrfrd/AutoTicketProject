@@ -1,0 +1,14 @@
+[INFO  - 2015-10-07T18:16:16.892Z] GhostDriver - Main - running on port 56060
+[INFO  - 2015-10-07T18:16:17.528Z] Session [80b1d520-6d1f-11e5-9fa4-dd4701e3b430] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/29.0.1547.57 Safari/537.36","webSecurityEnabled":true}
+[INFO  - 2015-10-07T18:16:17.528Z] Session [80b1d520-6d1f-11e5-9fa4-dd4701e3b430] - page.customHeaders:  - {}
+[INFO  - 2015-10-07T18:16:17.529Z] Session [80b1d520-6d1f-11e5-9fa4-dd4701e3b430] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.0.0","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-unknown-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"},"phantomjs.page.settings.userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/29.0.1547.57 Safari/537.36"}
+[INFO  - 2015-10-07T18:16:17.529Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 80b1d520-6d1f-11e5-9fa4-dd4701e3b430
+[ERROR - 2015-10-07T18:16:20.480Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1444241780425
+
+  :262 in error
+[ERROR - 2015-10-07T18:16:20.808Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1444241780751
+
+  :262 in error
+[ERROR - 2015-10-07T18:16:21.121Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1444241781070
+
+  :262 in error

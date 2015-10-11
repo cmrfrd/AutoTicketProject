@@ -1,0 +1,13 @@
+Number Tickets:
+2
+
+Constants:
+category, %Access SCM
+source, E-Mail
+
+Fields:   
+affected_user, requester, location, phone, FOC, group
+
+Values:
+Vora Vagmin, Vora Vagmin, Manhasset Main - 300, 555-5555, 1234, SCM - Helpdesk Support
+Alex, Alex, Manhasset Main - 300, 523-5555, 1234, SCM - Helpdesk Support
