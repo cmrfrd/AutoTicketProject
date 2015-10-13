@@ -5,19 +5,21 @@
 
 Hello! This is the README.md document for AutoTicket.
 
-By: Alexander Comerford 
+By: Alexander Comerford
 Email: acomerford@sunypoly.edu
 
-Description:
+#Description:
 -These pieces of software are meant to automate the ticketing process of CA Service Desk Manager via
  a simple api for users to create Change Orders and Incidents.
 
-What AutoTicket can do (and how it should be used):
+#What AutoTicket can do (and how it should be used):
+
 1. Create Incidents and Change Orders via script or text file
 2. Create multiple tickets at once
 3. Create "scheduled" tickets that need to be made weekly or daily
 
-What AutoTicket cannot do (and how it shouldn't be used):
+#What AutoTicket cannot do (and how it shouldn't be used):
+
 1. Replace CA Service Desk Manager website
 2. Make all tickets via AutoTicket
 
@@ -60,16 +62,10 @@ Fields that can be filled on ticket:
 -order_summary
 -order_description
 
-Adding new fucntionality:
-*look in AutoTicket/Ticket.py
-*add to "set_all" method additional elif statement with associated key
-*add method to class
-**Note** - Be sure frame navigation is a OK
+##Text file orders:
 
-Text file orders:
-
-Format for text file input
-
+#Format for text file input
+```
 Number Tickets: <number>       <== number of tickets
 
 Constants:                     <== constant values for each ticket
@@ -83,4 +79,5 @@ Fields:			 <== Fields for each ticket to be filled
 Values:			 <== Value associated for each field
 <value1>,<value2>,<value3>,...
 <value1>,<value1>,<value1>,...
+```
 
