@@ -36,31 +36,6 @@ Multiple libraries are required.
 Requirements: selenium, pywin32, psutil, pywinauto,
 
 
-Files:
-|
-|__AutoTicket
-| |
-| |__ __init__.py
-| |__ServiceDesk.py
-| |__Ticket.py
-|
-|__drivers
-| |
-| |_chromedriver.exe
-| |_phantomjs.exe
-|
-|
-|__TicketOrders
-| |
-| |__template.txt
-|
-|__ghostdriver.log
-|__README.md
-
-... (Wrapper Files)
-... (Text Files)
-
-
 Fields that can be filled on ticket:
 
 -Requester
@@ -92,18 +67,20 @@ Adding new fucntionality:
 **Note** - Be sure frame navigation is a OK
 
 Text file orders:
--Format
---Number Tickets: <number>       <== number of tickets
---
---Constants:                     <== constant values for each ticket
---<field1>,<value1>
---<field2>,<value2>
---...
---
---Fields:			 <== Fields for each ticket to be filled
---<field1>,<field2>,<field3>,...
---
---Values:			 <== Value associated for each field
---<value1>,<value2>,<value3>,...
---<value1>,<value1>,<value1>,...
+
+Format for text file input
+
+Number Tickets: <number>       <== number of tickets
+
+Constants:                     <== constant values for each ticket
+<field1>,<value1>
+<field2>,<value2>
+...
+
+Fields:			 <== Fields for each ticket to be filled
+<field1>,<field2>,<field3>,...
+
+Values:			 <== Value associated for each field
+<value1>,<value2>,<value3>,...
+<value1>,<value1>,<value1>,...
 
