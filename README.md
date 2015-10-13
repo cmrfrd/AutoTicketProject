@@ -40,27 +40,7 @@ Requirements: selenium, pywin32, psutil, pywinauto,
 
 Fields that can be filled on ticket:
 
--Requester
--affected_user
--category
--status
--source
--location
--department
--email
--phone
--FOC
--assignee
--group
--impact
--priority
--start_date
--call_back_date
--root_cause
--extenal_system_ticket
--clarity_project_num
--order_summary
--order_description
+Requester, affected_user, category, status, source, location, department, email, phone, FOC, assignee, group, impact, priority, start_date, call_back_date, root_cause, extenal_system_ticket, clarity_project_num, order_summary, order_description
 
 ##Text file orders:
 
@@ -80,4 +60,4 @@ Values:			 <== Value associated for each field
 <value1>,<value2>,<value3>,...
 <value1>,<value1>,<value1>,...
 ```
-
+For example see AutoTicketProject/TicketOrders/template.txt
