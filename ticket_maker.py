@@ -15,7 +15,7 @@ info_dict = {
         }
 
 desk = ServiceDesk(visible=True)
-desk.log_in("acomerford","Alexander4!")
+desk.log_in("username","Password")
 
 print "logged in"
 
